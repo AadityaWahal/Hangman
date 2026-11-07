@@ -384,38 +384,6 @@ export default function App() {
         </div>
       </header>
 
-      {/* Prominent Dedication Banner - Visible on first glance */}
-      <div
-        className={`w-full py-2 px-4 border-b transition-colors ${
-          theme === 'dark'
-            ? 'bg-amber-500/10 border-amber-500/20 text-amber-200'
-            : 'bg-amber-50 border-amber-200/90 text-amber-900'
-        }`}
-      >
-        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-xs sm:text-sm font-medium text-center">
-          <span>
-            Special Edition: Made by{' '}
-            <span className="font-bold text-amber-400 dark:text-amber-300 underline decoration-amber-400/60 underline-offset-2">
-              Aaditya
-            </span>{' '}
-            for{' '}
-            <span className="font-bold text-amber-400 dark:text-amber-300 underline decoration-amber-400/60 underline-offset-2">
-              Naitik
-            </span>
-          </span>
-          <span aria-hidden="true" className="opacity-50">
-            ·
-          </span>
-          <span className="font-medium text-slate-300 dark:text-slate-300">Class 11th A</span>
-          <span aria-hidden="true" className="opacity-50">
-            ·
-          </span>
-          <span className="font-semibold text-slate-200 dark:text-slate-200">
-            Nutan Vidya Mandir School
-          </span>
-        </div>
-      </div>
-
       {/* Main Content Arena */}
       <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-4 sm:py-6 flex flex-col justify-between">
         {/* Workspace Toolbar: Clean segmented tabs & game status */}
@@ -623,11 +591,7 @@ export default function App() {
 
         {/* Quiet Footer */}
         <footer className="mt-6 pt-3 border-t border-slate-800/40 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-500 text-center sm:text-left">
-          <div>
-            Made with 💛 by <span className="text-slate-400 font-medium">Aaditya</span> for{' '}
-            <span className="text-slate-400 font-medium">Naitik</span> (Class 11th A, Nutan Vidya
-            Mandir School)
-          </div>
+          <div>Hangman Word Odyssey</div>
           <div>Press any letter key (A-Z) on your keyboard to guess</div>
         </footer>
       </main>
